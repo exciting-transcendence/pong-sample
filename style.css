@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+}
+
+#winner {
+  font-size: large;
+  text-align: center;
+}
+
+#score {
+  width: 600px;
+  height: 30px;
+  font-size: xx-large;
+  text-align: center;
+  margin: 10px;
+}
+
+#score>div {
+  border: 1px solid black;
+  width: 50%;
+  height: 100%;
+}
+
+#main {
+  border: 1px solid black;
+}
